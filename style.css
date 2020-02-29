@@ -1,0 +1,30 @@
+body{
+  font-family: arial;
+  text-align: center;
+}
+
+img{
+  width: 15%
+}
+
+button{
+  padding: 5px;
+  width: 200px;
+  margin: 0;
+  background-color: grey;
+  border: none;
+  color: white;
+  font-weight: bolder;
+}
+
+#the_game{
+  display: none;
+}
+
+li {
+  display: inline-block;
+}
+
+#end_game{
+  display: none;
+}
