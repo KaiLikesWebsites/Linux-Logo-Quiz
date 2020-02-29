@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Linux Logo Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      Guess the distro!
+    </h1>
+
+    <div id="the_game">
+      <img id="distro_logo" />
+      <ul>
+        <li>
+          <button onclick="button_one_click()">
+            <p id="button_one"></p>
+          </button>
+        </li>
+        <li>
+          <button onclick="button_two_click()">
+            <p id="button_two"></p>
+          </button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <button onclick="button_four_click()">
+            <p id="button_four"></p>
+          </button>
+        </li>
+        <li>
+          <button onclick="button_three_click()">
+            <p id="button_three"></p>
+          </button>
+        </li>
+      </ul>  
+    </div>
+    <div id="end_game">
+      <span id="correct"></span><br>
+      <span id="you_chose"></span><br>
+      <span id="grade"></span><br>
+      <button onclick="reset()">
+        <p>
+          Try Again?
+        </p>
+      </button>
+    </div>
+    <div id="start_game">
+      <button onclick="new_game()">
+        <p>
+          New Game!!
+        </p>
+      </button>
+    </div>
+    <p>
+      v0.4-stable - &copy KaiLikesLinux.io
+    </p>
+  </body>
+</html>
